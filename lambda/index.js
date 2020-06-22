@@ -26,9 +26,9 @@ const getWeek = () => {
         date.setDate(date.getDate() + 1);
         
     const week = currentWeekNumber(date);
-    const colour = week % 2 === 0 ? 'blue' : 'yellow';
+    const isPickup = week % 2 !== 0;
     
-    return { week, colour };
+    return { week, isPickup };
 };
 
 const CheckScheduleIntentHandler = {
@@ -39,8 +39,9 @@ const CheckScheduleIntentHandler = {
     handle(handlerInput) {
         
         const week = getWeek();
+        const is = week.isPickup ? "is" : "is not";
         
-        const speakOutput = `Week ${week.week} is a ${week.colour} week.`;
+        const speakOutput = `Week ${week.week} ${is} a garbage pickup week.`;
         return handlerInput.responseBuilder
             .speak(speakOutput)
             //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
@@ -57,7 +58,7 @@ const CheckPickupIntentHandler = {
         
         const week = getWeek();
         
-        const speakOutput = `It is garbage pickup week if you live in a ${week.colour} zone.`;
+        const speakOutput = week.isPickup ? 'Yes, it is garbage pickup week.' : 'No, garbage pickup is next week.';
         return handlerInput.responseBuilder
             .speak(speakOutput)
             //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
