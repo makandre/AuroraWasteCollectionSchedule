@@ -1,0 +1,90 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "An Alexa skill to tell you whether it is garbage pickup week",
+          "examplePhrases": [
+            "Alexa, open Aurora waste collection",
+            "What week is it?",
+            "Is it garbage pickup week?"
+          ],
+          "keywords": [
+            "Aurora",
+            "waste",
+            "collection",
+            "schedule",
+            "garbage",
+            "recycle",
+            "recycling",
+            "pickup",
+            "day",
+            "days",
+            "week",
+            "weeks"
+          ],
+          "name": "Aurora Waste Collection Schedule",
+          "description": "An Alexa skill to tell you whether it is garbage pickup week for waste collection in Aurora, Ontario, Canada.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "An Alexa skill to tell you whether it is garbage pickup week",
+          "examplePhrases": [
+            "Alexa, open Aurora waste collection",
+            "What week is it?",
+            "Is it garbage pickup week?"
+          ],
+          "keywords": [
+            "Aurora",
+            "waste",
+            "collection",
+            "schedule",
+            "garbage",
+            "recycle",
+            "recycling",
+            "pickup",
+            "day",
+            "days",
+            "week",
+            "weeks"
+          ],
+          "name": "Aurora Waste Collection Schedule",
+          "description": "An Alexa skill to tell you whether it is garbage pickup week for waste collection in Aurora, Ontario, Canada.",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "No special instructions",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": [
+        "CA",
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:576697798695:function:688bfc5c-3f51-4b65-8046-33b031df6679:Release_1"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {},
+        "en-CA": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
