@@ -2,7 +2,7 @@
 // Please visit https://alexa.design/cookbook for additional examples on implementing slots, dialog management,
 // session persistence, api calls, and more.
 const Alexa = require('ask-sdk-core');
-const currentWeekNumber = require('current-week-number');
+const impl = require('./impl')
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
@@ -17,31 +17,13 @@ const LaunchRequestHandler = {
     }
 };
 
-const getWeek = () => {
-    
-    const date = new Date();
-    
-    // if Sunday, advance by 1 day to account for the week starting on Monday
-    if (date.getDay() === 0)
-        date.setDate(date.getDate() + 1);
-        
-    const week = currentWeekNumber(date);
-    const isPickup = week % 2 !== 0;
-    
-    return { week, isPickup };
-};
-
 const CheckScheduleIntentHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'CheckScheduleIntent';
     },
     handle(handlerInput) {
-        
-        const week = getWeek();
-        const is = week.isPickup ? "is" : "is not";
-        
-        const speakOutput = `Week ${week.week} ${is} a garbage pickup week.`;
+        const speakOutput = impl.checkSchedule();
         return handlerInput.responseBuilder
             .speak(speakOutput)
             //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
@@ -55,10 +37,7 @@ const CheckPickupIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'CheckPickupIntent';
     },
     handle(handlerInput) {
-        
-        const week = getWeek();
-        
-        const speakOutput = week.isPickup ? 'Yes, it is garbage pickup week.' : 'No, garbage pickup is next week.';
+        const speakOutput = impl.checkPickup();
         return handlerInput.responseBuilder
             .speak(speakOutput)
             //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
