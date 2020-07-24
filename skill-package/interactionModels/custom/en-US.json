@@ -19,7 +19,7 @@
           "name": "CheckScheduleIntent",
           "slots": [],
           "samples": [
-            "what\u0027s the week",
+            "what's the week",
             "what week is it"
           ]
         },
@@ -47,5 +47,5 @@
       }
     }
   },
-  "version": "3"
+  "version": "4"
 }

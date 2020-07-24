@@ -1,71 +1,5 @@
 {
   "manifest": {
-    "publishingInformation": {
-      "locales": {
-        "en-US": {
-          "summary": "An Alexa skill to tell you whether it is garbage pickup week",
-          "examplePhrases": [
-            "Alexa, open Aurora waste collection",
-            "What week is it?",
-            "Is it garbage pickup week?"
-          ],
-          "keywords": [
-            "Aurora",
-            "waste",
-            "collection",
-            "schedule",
-            "garbage",
-            "recycle",
-            "recycling",
-            "pickup",
-            "day",
-            "days",
-            "week",
-            "weeks"
-          ],
-          "name": "Aurora Waste Collection Schedule",
-          "description": "An Alexa skill to tell you whether it is garbage pickup week for waste collection in Aurora, Ontario, Canada.",
-          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
-          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
-        },
-        "en-CA": {
-          "summary": "An Alexa skill to tell you whether it is garbage pickup week",
-          "examplePhrases": [
-            "Alexa, open Aurora waste collection",
-            "What week is it?",
-            "Is it garbage pickup week?"
-          ],
-          "keywords": [
-            "Aurora",
-            "waste",
-            "collection",
-            "schedule",
-            "garbage",
-            "recycle",
-            "recycling",
-            "pickup",
-            "day",
-            "days",
-            "week",
-            "weeks"
-          ],
-          "name": "Aurora Waste Collection Schedule",
-          "description": "An Alexa skill to tell you whether it is garbage pickup week for waste collection in Aurora, Ontario, Canada.",
-          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
-          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
-        }
-      },
-      "automaticDistribution": {
-        "isActive": false
-      },
-      "isAvailableWorldwide": false,
-      "testingInstructions": "No special instructions",
-      "category": "ORGANIZERS_AND_ASSISTANTS",
-      "distributionCountries": [
-        "CA",
-        "US"
-      ]
-    },
     "apis": {
       "custom": {
         "endpoint": {
@@ -77,14 +11,80 @@
     "manifestVersion": "1.0",
     "privacyAndCompliance": {
       "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
       "locales": {
         "en-US": {},
         "en-CA": {}
       },
-      "containsAds": false,
-      "isExportCompliant": true,
-      "isChildDirected": false,
       "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": [
+        "CA",
+        "US"
+      ],
+      "isAvailableWorldwide": false,
+      "locales": {
+        "en-US": {
+          "description": "An Alexa skill to tell you whether it is garbage pickup week for waste collection in Aurora, Ontario, Canada.",
+          "examplePhrases": [
+            "Alexa, open Aurora waste collection",
+            "What week is it?",
+            "Is it garbage pickup week?"
+          ],
+          "keywords": [
+            "Aurora",
+            "waste",
+            "collection",
+            "schedule",
+            "garbage",
+            "recycle",
+            "recycling",
+            "pickup",
+            "day",
+            "days",
+            "week",
+            "weeks"
+          ],
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6530/43408514888145938626c058446307ea/APP_ICON_LARGE?versionId=PZCzyzHQW7NBPsKmAoBg1yKErEleuI1b&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=efac319867a41486265fb9a0cc95456acb8f52111bf15a72f6e1d0e224f27506",
+          "name": "Aurora Waste Collection Schedule",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1ab1/4cc16088285749188bb480c993aaa544/APP_ICON?versionId=Bqm8WI_q6Ijxm0VummBkWfpztsoFvlXR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=445dc55ce06225e26169da14357600604e634d81da89abbbdd8c3abf5b67b127",
+          "summary": "An Alexa skill to tell you whether it is garbage pickup week"
+        },
+        "en-CA": {
+          "description": "An Alexa skill to tell you whether it is garbage pickup week for waste collection in Aurora, Ontario, Canada.",
+          "examplePhrases": [
+            "Alexa, open Aurora waste collection",
+            "What week is it?",
+            "Is it garbage pickup week?"
+          ],
+          "keywords": [
+            "Aurora",
+            "waste",
+            "collection",
+            "schedule",
+            "garbage",
+            "recycle",
+            "recycling",
+            "pickup",
+            "day",
+            "days",
+            "week",
+            "weeks"
+          ],
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6530/43408514888145938626c058446307ea/APP_ICON_LARGE?versionId=PZCzyzHQW7NBPsKmAoBg1yKErEleuI1b&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=efac319867a41486265fb9a0cc95456acb8f52111bf15a72f6e1d0e224f27506",
+          "name": "Aurora Waste Collection Schedule",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1ab1/4cc16088285749188bb480c993aaa544/APP_ICON?versionId=Bqm8WI_q6Ijxm0VummBkWfpztsoFvlXR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=445dc55ce06225e26169da14357600604e634d81da89abbbdd8c3abf5b67b127",
+          "summary": "An Alexa skill to tell you whether it is garbage pickup week"
+        }
+      },
+      "testingInstructions": "No special instructions"
     }
   }
 }
