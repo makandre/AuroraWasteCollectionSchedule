@@ -3,6 +3,9 @@
 		{
 			"name": "AuroraWasteCollectionSchedule",
 			"path": "."
+		},
+		{
+			"path": "lambda"
 		}
 	],
 	"settings": {}

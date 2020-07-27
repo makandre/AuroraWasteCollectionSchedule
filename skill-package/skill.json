@@ -52,9 +52,9 @@
             "week",
             "weeks"
           ],
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6530/43408514888145938626c058446307ea/APP_ICON_LARGE?versionId=PZCzyzHQW7NBPsKmAoBg1yKErEleuI1b&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=efac319867a41486265fb9a0cc95456acb8f52111bf15a72f6e1d0e224f27506",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6530/43408514888145938626c058446307ea/APP_ICON_LARGE?versionId=PZCzyzHQW7NBPsKmAoBg1yKErEleuI1b&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200727T121533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a6761538bc5e7d2fd383c60e51ff1f841b5d097d925a01a428328edcf3ff60c8",
           "name": "Aurora Waste Collection Schedule",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1ab1/4cc16088285749188bb480c993aaa544/APP_ICON?versionId=Bqm8WI_q6Ijxm0VummBkWfpztsoFvlXR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=445dc55ce06225e26169da14357600604e634d81da89abbbdd8c3abf5b67b127",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1ab1/4cc16088285749188bb480c993aaa544/APP_ICON?versionId=Bqm8WI_q6Ijxm0VummBkWfpztsoFvlXR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200727T121533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6a4e94b2c4f440e1b401ee60922e80df33eb6a6a9cc799458e2dcc1bdf8946ea",
           "summary": "An Alexa skill to tell you whether it is garbage pickup week"
         },
         "en-CA": {
@@ -78,9 +78,9 @@
             "week",
             "weeks"
           ],
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6530/43408514888145938626c058446307ea/APP_ICON_LARGE?versionId=PZCzyzHQW7NBPsKmAoBg1yKErEleuI1b&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=efac319867a41486265fb9a0cc95456acb8f52111bf15a72f6e1d0e224f27506",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6530/43408514888145938626c058446307ea/APP_ICON_LARGE?versionId=PZCzyzHQW7NBPsKmAoBg1yKErEleuI1b&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200727T121533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a6761538bc5e7d2fd383c60e51ff1f841b5d097d925a01a428328edcf3ff60c8",
           "name": "Aurora Waste Collection Schedule",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1ab1/4cc16088285749188bb480c993aaa544/APP_ICON?versionId=Bqm8WI_q6Ijxm0VummBkWfpztsoFvlXR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200724T182343Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200724%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=445dc55ce06225e26169da14357600604e634d81da89abbbdd8c3abf5b67b127",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1ab1/4cc16088285749188bb480c993aaa544/APP_ICON?versionId=Bqm8WI_q6Ijxm0VummBkWfpztsoFvlXR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200727T121533Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QHE4P6AMV%2F20200727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6a4e94b2c4f440e1b401ee60922e80df33eb6a6a9cc799458e2dcc1bdf8946ea",
           "summary": "An Alexa skill to tell you whether it is garbage pickup week"
         }
       },
