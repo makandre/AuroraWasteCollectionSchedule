@@ -9,7 +9,7 @@ const getWeek = () => {
         date.setDate(date.getDate() + 1);
         
     const week = currentWeekNumber(date);
-    const isPickup = week % 2 !== 0;
+    const isPickup = week % 2 === 0; // even
     
     return { week, isPickup };
 };
